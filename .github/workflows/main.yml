@@ -3,7 +3,7 @@ name: Push to Replicate
 on:
   workflow_dispatch:
     inputs:
-      model_name:  firassolt/sadtalker
+      model_name:
         required: true
         description: "The name of the Replicate model to publish, e.g `username/modelname`. The model must already exist on Replicate."
 
